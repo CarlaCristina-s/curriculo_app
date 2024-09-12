@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Cadastro - Adote pet</title>
+</head>
+
+<body>
+  <header class="container-header">
+    <nav class="container-nav">
+      <img src="assets/logo-removebg-preview.png" alt="">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="adocao.html">Adoção</a></li>
+        <li><a href="">Perdi/Encontrei um pet</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container-home">
+    <h1>Cadastro de pets</h1>
+    <form id="form-pet">
+
+      <div class="input-container">
+        <label for="foto">Foto do pet:</label>
+        <input id="foto" type="url">
+        <span id="error-foto" style="color: red"></span>
+      </div>
+      <div class="form-row">
+        <div class="input-container flex-basis-45">
+          <label for="nome">Nome do pet:</label>
+          <input id="nome" type="text" placeholder="Digite o nome completo do pet">
+          <span id="error-nome" style="color: red"></span>
+        </div>
+
+        <div class="input-container flex-basis-45">
+          <label for="idade">Idade:</label>
+          <input id="idade" type="number">
+          <span id="error-idade" style="color: red"></span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="input-container flex-basis-45">
+          <label for="cor">Cor:</label>
+          <input id="cor" type="color" value="#52635e">
+          <span id="error-cor" style="color: red"></span>
+        </div>
+
+        <div class="input-container flex-basis-45">
+          <label for="categoria">Categoria:</label>
+          <select id="categoria">
+            <option value="">Selecione uma opção</option>
+            <option value="caes">Cães</option>
+            <option value="gatos">Gatos</option>
+            <option value="outros">Outros</option>
+          </select>
+          <span id="error-categoria" style="color: red"></span>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <label for="descricao">Descrição do pet</label>
+        <textarea id="descricao"></textarea>
+        <span id="error-descricao" style="color: red"></span>
+      </div>
+
+      <h3>Informações do proprietário</h3>
+      <div class="form-row">
+        <div class="input-container flex-basis-45">
+          <label for="proprietario">Nome do proprietário:</label>
+          <input id="proprietario" type="text" placeholder="Digite seu nome completo">
+          <span id="error-proprietario" style="color: red"></span>
+        </div>
+
+        <div class="input-container flex-basis-20">
+          <label for="email">E-mail:</label>
+          <input id="email" type="email" placeholder="Digite seu e-mail">
+          <span id="error-email" style="color: red"></span>
+        </div>
+
+        <div class="input-container flex-basis-20">
+          <label for="telefone">Telefone:</label>
+          <input id="telefone" type="tel" placeholder="Digite seu telefone">
+          <span id="error-telefone" style="color: red"></span>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="button-submit" id="button-submit" type="submit">Cadastrar</button>
+      </div>
+    </form>
+  </div>
+
+
+  <footer class="footer-app footer-form">
+    <p>&copy;Todos os direitos reservados</p>
+  </footer>
+
+
+  <script src="scripts/cadastro.js"></script>
+</body>
+
+</html>

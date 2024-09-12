@@ -1,0 +1,23 @@
+.container {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: blueviolet;
+}
+
+h1 {
+  margin: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+input{
+  margin: 10px;
+}
+
+button {
+  width: 80px;
+  height: 25px;
+  border-radius: 4px;
+}

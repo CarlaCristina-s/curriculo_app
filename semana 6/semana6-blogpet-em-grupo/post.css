@@ -1,0 +1,251 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: #050577;
+}
+
+.topo h1 {
+  font-size: 24px;
+  color: #fff;
+  margin-left: 80px;
+}
+
+.topo a {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 80px;
+  text-decoration: none;
+}
+
+
+/* nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 80%;
+  margin-left: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: #050577;
+}
+
+.button-nav {
+ margin-right: 80px;
+ padding: 8px;
+ border-radius: 4px;
+ background-color: #f81616;
+ border: #ff0000;
+ color: #fff;
+ cursor: pointer;
+} */
+
+/* CADASTRO POST */
+.container {
+  background-color: #e6f2ff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #005f99;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  color: #003366;
+  margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group textarea, 
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #b3d1ff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+/* LISTAGEM POST */
+.container {
+  background-color: #e6f2ff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #b3d1ff;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #0073e6;
+  color: white;
+}
+
+button.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+/* VER POST */
+.container-error {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  width: 500px;
+}
+
+#campo {
+  width: 50%;
+  min-height: 100vh;
+  margin: 20px auto;
+  background-color: #fff;
+  color: #808080;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: solid 1px ;
+
+}
+
+.campo-title {
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.campo-img {
+  width: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-post {
+  margin: 60px;
+}
+
+.texto-p {
+  text-align: justify;
+  line-height: 25px;
+  margin: 40px;
+}
+
+.campo-data {
+  text-align: end;
+  margin: 40px;
+}
+
+/* .btn-voltar {
+  background-color: #0d0d90;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.btn-voltar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-voltar:hover {
+  background-color: #2929d0;
+} */
+
+footer {
+  width: 100%;
+  height: 140px;
+  bottom: 0;
+  background-color: #050577;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #333;
+}
+
+footer ul {
+  list-style: none;
+  line-height: 25px;
+}
+
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  #campo {
+    width: 90%;
+  }
+  
+}

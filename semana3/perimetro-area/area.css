@@ -1,0 +1,31 @@
+.container {
+  max-width: 600px;
+  background-color: #a1e5d3;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.titulo {
+  text-align: center;
+  color: #FFF;
+  font-size: 24px;
+}
+
+.form {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+ margin: 0 auto;
+ background-color: black;
+ color: #FFF;
+}
+
+input {
+  width: 60px;
+  height: 34px;
+}
